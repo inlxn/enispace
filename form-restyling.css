@@ -1,0 +1,188 @@
+select::-ms-expand {
+    display: none;
+}
+
+form select.placeholder-text {
+    color: #a9a9a9;
+}
+
+select.placeholder-text {
+    color: #a9a9a9;
+}
+
+.form-input-style {
+    background-color: transparent;
+    border: 1px solid #CCC;
+    color: #666666;
+    padding: 18px 10px 5px 13px;
+    font-family: 'EniExpBold';
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 42px;
+}
+
+.form-text-area-style {
+    background: transparent;
+    border: 1px solid #CCC;
+    color: #666666;
+    width:100%; 
+    padding: 10px 10px 0px 10px;
+    font-family: 'EniExpBold';
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    height: 42px;
+}
+
+select.form-input-style {
+    padding: 18px 10px 0px 13px;
+}
+
+select.form-input-style:after {
+    z-index: 1000;
+}
+
+.form-control-placeholder {
+    position: absolute;
+    font-family: 'EniTabReg';
+    font-size: 15px;
+    top: 25px;
+    left: 13px;
+    padding: 0px 0 0 17px;
+    transition: all 200ms;
+    opacity: 0.5;
+    text-transform: none;
+}
+
+.form-control-date-placeholder {
+    position: absolute;
+    font-family: 'EniTabReg';
+    top: 25px;
+    left: 13px;
+    font-size: 13px;
+    padding: 0px 0 0 17px;
+    transition: all 200ms;
+    opacity: 0.5;
+    text-transform: none;
+}
+
+.form-input-style:focus + .form-control-placeholder,
+.form-input-style:disabled + .form-control-placeholder,
+.form-input-style:valid + .form-control-placeholder {
+    font-size: 80%;
+    transform: translate3d(0, -50%, 0);
+    padding: 0px 0 0 17px;
+    opacity: 0.5;
+    border: none;
+}
+
+.form-input-style:disabled{
+    background-color: #dedede;
+}
+
+form input[type="text"].form-input-style, form input[type="password"].form-input-style {
+    background: transparent;
+    border: 1px solid #CCC;
+    color: #666666;
+    padding: 18px 10px 5px 13px;
+    font-family: 'EniExpBold';
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 42px;
+    
+    text-transform: none;
+}
+
+form input[type="text"].form-input-style.error {
+    border-color: #af2336;
+}
+
+form input[type="checkbox"].form-input-style.error {
+    border: 1px solid #af2336;
+}
+
+form input[type="submit"].button-discover-more, form button[type="submit"].button-discover-more, .button-discover-more {
+    background: rgba(255,255,255, 0.4);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: EniExpBold;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+    width: auto;
+    margin-top: 0px;
+    text-transform: initial;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+form input[type="submit"].button-yellow, form button[type="submit"].button-yellow {
+    background: #fed300;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    font-size: 14px;
+    font-family: EniExpBold;
+    font-weight: inherit;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: initial;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: initial;
+}
+
+form input[type="text"].header-search-field {
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    color: white;
+    padding-top: 8px;
+    padding-left: 0px;
+    font-size: 14px;
+    font-family: EniExpBold;
+    width: 87%;
+    display: inline-block;
+}
+
+form input[type="text"], form input[type="password"] {
+    padding: 8px 21px;
+}
+
+form input[type="text"].header-search-field-v2 {
+    color: black;
+    font-family: EniTabReg;
+    height: 36px;
+    width: 270px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 1px;
+    border-left: 0.5px solid #CCC;
+    border-right: 0.5px solid #CCC;
+    border-bottom: 0.5px solid #CCC;
+    border-top: transparent;
+}
+
+form input[type="radio"]:checked,
+form input[type="radio"]:not(:checked) {
+    position: static;
+    left: initial;
+}
+
+.icon-delete-for-input {
+    position: absolute;
+    height: 15px;
+    top: 30px;
+    right: 27px;
+}
+
+.datepicker-dropdown {
+    z-index: 10000 !important;
+}

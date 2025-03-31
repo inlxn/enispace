@@ -1,0 +1,624 @@
+/*!
+ * Le modifiche contenute in questo file sovrascrivono screen.css in modo da evitare di perdere le modifiche da noi applicate, 
+ * ad ogni aggiornamento del file screen.css.
+ * 
+ * NON EDITARE QUESTO FILE DALL'INTERFACCIA TEAMSITE!
+ * E' fondamentale applicare qualsiasi modifica a questo file sulla repo GitLab, e solo dopo modificarlo su TeamSite.
+ * Questo permettera al team di sviluppo di essere allineato sui cambiamenti ed eviterà futuri problemi.
+ *
+ * Modificando questo file, inserisci le modifiche da te apportate sotto al commento col tuo nome. 
+*/
+
+/* Lisa */
+
+.hidden_error {
+  display:none!important;
+}
+
+.alert-success{
+      color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.mgtop{
+  margin-top: 30px!important;
+}
+#footer .els-link {
+	height: inherit;
+}
+#menu.mobile {
+/*top: 85px; Edited 28/03/2018*/
+  top: 130px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #menu.mobile {
+  top: 150px;
+  }
+}
+.title p {
+color: #fff!important;
+}
+.els-for-external .wrap {
+    height: inherit;
+}
+
+.slick-slide {
+	height: inherit;
+}
+.slick-slide img {
+    max-width: 100%;
+}
+
+.els-for-external-4 .wrap {
+	margin-bottom: 0;
+}
+.els-for-external-4 .wrap img {
+	height: auto;
+}
+
+.els-for-external-4 .wrap .box-overlay {
+	/*min-height: 262px;*/
+	height: 100%;
+}
+
+.els-for-external-4.minheight .wrap .box-overlay {
+	min-height: 262px;
+}
+
+.text-bannertext {
+  position: absolute;
+}
+
+form input[type="password"] {
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 15px 21px;
+    font-size: 16px;
+    color: #666666;
+    border: 1px solid #c1c1c1;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+	.search-result-docs .doc-result .doc-icon::before {
+  		width: 0;
+  		height:0;
+	}
+  
+}
+
+.eni-btn {
+  padding: 12.5px 47px;
+}
+.eni-btn.inline {
+    margin: 2px;
+}
+
+.marginB30 {
+  margin-bottom: 50px;
+}
+#footer .els-link .els-soc-box p {
+ margin-bottom: 0px;
+}
+
+.captcha-input {
+  float: left!important;
+  display: inline-block!important;
+  width: 50%!important;
+  margin-right: 20px!important;
+}
+@media (max-width: 992px) {
+  .image-box {
+    padding-bottom: 50px;
+  }
+}
+
+
+
+/*
+.accordion.transitionable.opened, .accordion2.opened .accordionable-content.transitionable  {
+    height: auto!important;
+}
+*/
+
+.faq-section h1{
+    color: #767676;
+    font-size: 32px;
+    line-height: 34px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+}  
+    
+h3.testolink {
+  display: inline-block;
+margin-right: 50px;
+}
+
+/* Igor */
+@font-face {
+	font-family: "eni-procurement-icon";
+	src: url("https://enispace.eni.com/assets/fonts/eni-procurement-icon/fonts/eni-procurement-icon.ttf") format("truetype"), url("https://enispace.eni.com/assets/fonts/eni-procurement-icon/fonts/eni-procurement-icon.woff") format("woff"), url("https://enispace.eni.com/assets/fonts/eni-procurement-icon/fonts/eni-procurement-icon.svg#eni-station") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eni-procurement-icon';
+	src: url("https://enispace.eni.com/assets/fonts/eni-procurement-icon.ttf?kp5548") format("truetype"), url("https://enispace.eni.com/assets/fonts/eni-procurement-icon.woff?kp5548") format("woff"), url("https://enispace.eni.com/assets/fonts/eni-procurement-icon.svg?kp5548#eni-procurement-icon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EniTabBold";
+	src: url("https://enispace.eni.com/assets/fonts/enitab/enitabbol-webfont.eot");
+	src: url("https://enispace.eni.com/assets/fonts/enitab/enitabbol-webfont.eot?#iefix") format("embedded-opentype"), url("https://enispace.eni.com/assets/fonts/enitab/enitabbol-webfont.woff") format("woff"), url("https://enispace.eni.com/assets/fonts/enitab/enitabbol-webfont.ttf") format("truetype"), url("https://enispace.eni.com/assets/fonts/enitab/enitabbol-webfont.svg#UndercoverRegular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EniTabLight";
+	src: url("https://enispace.eni.com/assets/fonts/enitab/enitablig-webfont.eot");
+	src: url("https://enispace.eni.com/assets/fonts/enitab/enitablig-webfont.eot?#iefix") format("embedded-opentype"), url("https://enispace.eni.com/assets/fonts/enitab/enitablig-webfont.woff") format("woff"), url("https://enispace.eni.com/assets/fonts/enitab/enitablig-webfont.ttf") format("truetype"), url("https://enispace.eni.com/assets/fonts/enitab/enitablig-webfont.svg#UndercoverRegular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EniTabReg";
+	src: url("https://enispace.eni.com/assets/fonts/enitab/enitabreg-webfont.eot");
+	src: url("https://enispace.eni.com/assets/fonts/enitab/enitabreg-webfont.eot?#iefix") format("embedded-opentype"), url("https://enispace.eni.com/assets/fonts/enitab/enitabreg-webfont.woff") format("woff"), url("https://enispace.eni.com/assets/fonts/enitab/enitabreg-webfont.ttf") format("truetype"), url("https://enispace.eni.com/assets/fonts/enitab/enitabreg-webfont.svg#UndercoverRegular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EniExpBold";
+	src: url("https://enispace.eni.com/assets/fonts/enitab/eniexpbol-webfont.eot");
+	src: url("https://enispace.eni.com/assets/fonts/enitab/eniexpbol-webfont.eot?#iefix") format("embedded-opentype"), url("https://enispace.eni.com/assets/fonts/enitab/eniexpbol-webfont.woff") format("woff"), url("https://enispace.eni.com/assets/fonts/enitab/eniexpbol-webfont.ttf") format("truetype"), url("https://enispace.eni.com/assets/fonts/enitab/eniexpbol-webfont.svg#UndercoverRegular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.flag {
+	display: inline-block;
+	width: 25px;
+	height: 15px;
+	background: url("../images/flags/flags.png") no-repeat;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.slick-loading .slick-list {
+	background: #fff url("../images/ajax-loader.gif") center center no-repeat;
+}
+
+@font-face {
+	font-family: "slick";
+	src: url("https://enispace.eni.com/assets/fonts/slick-fonts/slick.eot");
+	src: url("https://enispace.eni.com/assets/fonts/slick-fonts/slick.eot?#iefix") format("embedded-opentype"), url("https://enispace.eni.com/assets/fonts/slick-fonts/slick.woff") format("woff"), url("https://enispace.eni.com/assets/fonts/slick-fonts/slick.ttf") format("truetype"), url("https://enispace.eni.com/assets/fonts/slick-fonts/slick.svg#slick") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.btn.search-btn.collapsed {
+	height: 100%;
+}
+
+.band-page {
+	background: url("../images/pages/img-banner-autocandidatura.jpg") center no-repeat;
+	background: url("../images/pages/img-banner-autocandidatura.jpg") center no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 198px;
+	text-align: center;
+}
+
+#homepage-privata-page .documents-list .document .doc-icon.icon-word:before {
+	background-image: url("../images/icons/word.png");
+}
+
+#homepage-privata-page .documents-list .document .doc-icon.icon-pdf:before {
+	background-image: url("../images/icons/pdf.png");
+}
+
+#homepage-privata-page .documents-list .document .doc-icon.icon-flag:before {
+	background-image: url("../images/icons/flag.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.document:before {
+	background-image: url("../images/icons/document.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.code:before {
+	background-image: url("../images/icons/code.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.excel:before {
+	background-image: url("../images/icons/excel.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.image:before {
+	background-image: url("../images/icons/img-2.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.link:before {
+	background-image: url("../images/icons/link.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.outlook:before {
+	background-image: url("../images/icons/outlook.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.pdf:before {
+	background-image: url("../images/icons/pdf.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.pdf-2:before {
+	background-image: url("../images/icons/pdf-2.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.ppt-1:before {
+	background-image: url("../images/icons/ppt-1.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.ppt-2:before {
+	background-image: url("../images/icons/ppt-2.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.text-1:before {
+	background-image: url("../images/icons/text-1.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.text-2:before {
+	background-image: url("../images/icons/text-2.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.video:before {
+	background-image: url("../images/icons/video.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.word:before {
+	background-image: url("../images/icons/word.png");
+}
+
+#sidebar-right .sidebar-right-content ul li .doc-icon.zip:before {
+	background-image: url("../images/icons/zip.png");
+}
+
+.documents .doc .doc-icon.document:before {
+	background-image: url("../images/icons/document.png");
+}
+
+.documents .doc .doc-icon.code:before {
+	background-image: url("../images/icons/code.png");
+}
+
+.documents .doc .doc-icon.excel:before {
+	background-image: url("../images/icons/excel.png");
+}
+
+.documents .doc .doc-icon.image:before {
+	background-image: url("../images/icons/img-2.png");
+}
+
+.documents .doc .doc-icon.link:before {
+	background-image: url("../images/icons/link.png");
+}
+
+.documents .doc .doc-icon.outlook:before {
+	background-image: url("../images/icons/outlook.png");
+}
+
+.documents .doc .doc-icon.pdf:before {
+	background-image: url("../images/icons/pdf.png");
+}
+
+.documents .doc .doc-icon.pdf-2:before {
+	background-image: url("../images/icons/pdf-2.png");
+}
+
+.documents .doc .doc-icon.ppt-1:before {
+	background-image: url("../images/icons/ppt-1.png");
+}
+
+.documents .doc .doc-icon.ppt-2:before {
+	background-image: url("../images/icons/ppt-2.png");
+}
+
+.documents .doc .doc-icon.text-1:before {
+	background-image: url("../images/icons/text-1.png");
+}
+
+.documents .doc .doc-icon.text-2:before {
+	background-image: url("../images/icons/text-2.png");
+}
+
+.documents .doc .doc-icon.video:before {
+	background-image: url("../images/icons/video.png");
+}
+
+.documents .doc .doc-icon.word:before {
+	background-image: url("../images/icons/word.png");
+}
+
+.documents .doc .doc-icon.zip:before {
+	background-image: url("../images/icons/zip.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.document:before {
+	background-image: url("../images/icons/document.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.code:before {
+	background-image: url("../images/icons/code.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.excel:before {
+	background-image: url("../images/icons/excel.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.image:before {
+	background-image: url("../images/icons/img-2.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.link:before {
+	background-image: url("../images/icons/link.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.outlook:before {
+	background-image: url("../images/icons/outlook.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.pdf:before {
+	background-image: url("../images/icons/pdf.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.pdf-2:before {
+	background-image: url("../images/icons/pdf-2.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.ppt-1:before {
+	background-image: url("../images/icons/ppt-1.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.ppt-2:before {
+	background-image: url("../images/icons/ppt-2.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.text-1:before {
+	background-image: url("../images/icons/text-1.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.text-2:before {
+	background-image: url("../images/icons/text-2.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.video:before {
+	background-image: url("../images/icons/video.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.word:before {
+	background-image: url("../images/icons/word.png");
+}
+
+.search-result-docs .doc-result .doc-mobile-icon.zip:before {
+	background-image: url("../images/icons/zip.png");
+}
+
+.search-result-docs .doc-result .doc-icon.document:before {
+	background-image: url("../images/icons/document.png");
+}
+
+.search-result-docs .doc-result .doc-icon.code:before {
+	background-image: url("../images/icons/code.png");
+}
+
+.search-result-docs .doc-result .doc-icon.excel:before {
+	background-image: url("../images/icons/excel.png");
+}
+
+.search-result-docs .doc-result .doc-icon.image:before {
+	background-image: url("../images/icons/img-2.png");
+}
+
+.search-result-docs .doc-result .doc-icon.link:before {
+	background-image: url("../images/icons/link.png");
+}
+
+.search-result-docs .doc-result .doc-icon.outlook:before {
+	background-image: url("../images/icons/outlook.png");
+}
+
+.search-result-docs .doc-result .doc-icon.pdf:before {
+	background-image: url("../images/icons/pdf.png");
+}
+
+.search-result-docs .doc-result .doc-icon.pdf-2:before {
+	background-image: url("../images/icons/pdf-2.png");
+}
+
+.search-result-docs .doc-result .doc-icon.ppt-1:before {
+	background-image: url("../images/icons/ppt-1.png");
+}
+
+.search-result-docs .doc-result .doc-icon.ppt-2:before {
+	background-image: url("../images/icons/ppt-2.png");
+}
+
+.search-result-docs .doc-result .doc-icon.text-1:before {
+	background-image: url("../images/icons/text-1.png");
+}
+
+.search-result-docs .doc-result .doc-icon.text-2:before {
+	background-image: url("../images/icons/text-2.png");
+}
+
+.search-result-docs .doc-result .doc-icon.video:before {
+	background-image: url("../images/icons/video.png");
+}
+
+.search-result-docs .doc-result .doc-icon.word:before {
+	background-image: url("../images/icons/word.png");
+}
+
+.search-result-docs .doc-result .doc-icon.zip:before {
+	background-image: url("../images/icons/zip.png");
+}
+
+/* Footer - Banda scura con logo ENI */
+#footer .els-social-footer .els-cont {
+	padding: 5px 0 !important;	
+}
+
+/* Datum - Textarea (Bugfix background) */
+body#tinymce {
+	background-color: #ffffff !important;
+}
+
+/* Document List Slider (Fix arrow and see all bugs) */
+.slick-prev {
+	left: -10px;
+}
+
+.slick-next {
+	right: -10px;
+}
+
+.public-notice-alerts-wrapper .see-all a {
+	margin-right: 10px;
+}
+
+.els-menu-station-search-bar.collapse.in {
+	display: block;
+}
+
+#collapseSearchbar.kcollapse {
+	overflow: hidden;
+	height: 0;
+	transition: height 1.0s ease;
+}
+
+#collapseSearchbar.kcollapse.in {
+	height: 97px;
+}
+
+.sidebar-selectable-agencies ul {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.sidebar-selectable-agencies ul li{
+font-size: 14px;
+border-bottom: 1px dotted #999;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+.sidebar-selectable-agencies ul li > a, .sidebar-selectable-agencies ul li > a {
+    width: 100%;
+    display: inline-block;
+    padding: 16px 10px;
+    color: #737373;
+	text-decoration: none;
+	font-weight: 200;
+}
+.sidebar-selectable-agencies ul li > a:focus, .sidebar-selectable-agencies ul li > a:visited, .sidebar-selectable-agencies ul li > a:active
+, .sidebar-selectable-agencies  ul li > a:focus, .sidebar-selectable-agencies  ul li > a:visited, .sidebar-selectable-agencies  ul li > a:active {
+    color: #737373;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.sidebar-selectable-agencies ul li > a:focus, .sidebar-selectable-agencies ul li > a:active
+, .sidebar-selectable-agencies  ul li > a:focus, .sidebar-selectable-agencies  ul li > a:active {
+	font-weight: 400;
+}
+
+.sidebar-selectable-agencies  ul li > a:hover {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+/* Document group */
+.public-notice-alerts-wrapper-doc h3 small.text-right a {
+	position: relative;
+	left: -20px;
+}
+
+.docGroupIcon {
+	height: 40px;
+}
+
+.col-xs-auto.sync.col-md-3.doc-size.padding-right-sm {
+	margin-top: 7px;
+}
+
+.faq-anchors .faq-anchor.col-xs-12.col-md-4 {
+    padding-top: 10px;
+}
+
+.docs-container p.text-pdf {
+    height: 10px;
+}
+
+.hiddenDocument {
+ 	display: none; 
+}
+
+
+@media (min-width:1281px) { 
+	.els-menu-station .btn.search-btn:after {
+		top: 44px!important;
+	}
+    .download-am-button {
+     	float: left!important;
+      	position: absolute;
+      	margin-left: 13px;
+    }
+  	.docs-container .doc-items .col-xs-12.col-md-3.ico-blue.doc-item {
+    	padding-top: 46px;
+	}
+}
+
+.bold-element {
+   font-weight: bold !important; 
+}
+
+@media (min-width:320px) and (max-width: 768px) { 
+	.captcha-input {
+  		width: 100% !important;
+	}
+}
+
+/* gestione mobile */
+.search-result-docs .doc-result .doc-mobile-icon-pfu:before {
+  display: inline-block;
+  content: ' ';
+  height: 0px !important;
+  width: 100%;
+  min-width: 45px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.eni-table-responsive.default-table {
+   width: 1220px;
+}
+

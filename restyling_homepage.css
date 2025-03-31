@@ -1,0 +1,42 @@
+#els-brandbar-restyling {
+    background: transparent;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    height: 600px;
+}
+
+.container-card .ls-area {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+
+.container-card .row {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+.slider .slick-slide {
+    cursor: initial;
+}
+
+
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.marquee div {
+display: inline-block;
+padding-left: 100%;
+animation: marquee 40s linear infinite;
+}
+
+.marquee2 div {
+/*animation-delay: 2.5s;*/
+}
